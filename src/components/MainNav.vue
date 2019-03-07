@@ -15,11 +15,11 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat v-scroll-to="'#HowItWorks'" >Como funciona?</v-btn>
-        <v-btn flat >Sobre nós</v-btn>
-        <v-btn flat >Depoimentos</v-btn>
-        <v-btn flat >Apoio</v-btn>
-        <v-btn flat >Contato</v-btn>
+        <v-btn flat v-scroll-to="{el:'#HowItWorks',offset:-50}">Como funciona?</v-btn>
+        <v-btn flat v-scroll-to="{el:'#AboutUs',offset:-50}">Sobre nós</v-btn>
+        <v-btn flat v-scroll-to="{el:'#Depositions',offset:-50}">Depoimentos</v-btn>
+        <v-btn flat v-scroll-to="{el:'#HowItWorks',offset:-50}">Apoio</v-btn>
+        <v-btn flat v-scroll-to="{el:'#Contact',offset:-50}">Contato</v-btn>
 
       </v-toolbar-items>
     </v-toolbar>
@@ -42,11 +42,11 @@
             
           </div>
           <v-card>
-            <v-btn flat >Como funciona?</v-btn>
-            <v-btn flat >Sobre nós</v-btn>
-            <v-btn flat >Depoimentos</v-btn>
-            <v-btn flat >Apoio</v-btn>
-            <v-btn flat >Contato</v-btn>
+            <v-btn flat v-scroll-to="{el:'#HowItWorks',offset:-10}">Como funciona?</v-btn>
+            <v-btn flat v-scroll-to="{el:'#AboutUs',offset:-10}">Sobre nós</v-btn>
+            <v-btn flat v-scroll-to="{el:'#Depositions',offset:-10}">Depoimentos</v-btn>
+            <v-btn flat v-scroll-to="{el:'#HowItWorks',offset:-10}">Apoio</v-btn>
+            <v-btn flat v-scroll-to="{el:'#Contact',offset:-10}">Contato</v-btn>
           </v-card>
         </v-expansion-panel-content>
       </v-expansion-panel>

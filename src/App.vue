@@ -6,6 +6,7 @@
       <HowItWorks/>
       <AboutUs/>
       <Depositions/>
+      <Contact/>
    
   </v-app>
 </template>
@@ -17,6 +18,7 @@ import FirstHero from "@/components/FirstHero"
 import HowItWorks from "@/components/HowItWorks"
 import AboutUs from "@/components/AboutUs"
 import Depositions from "@/components/Depositions"
+import Contact from "@/components/Contact"
 
 
 
@@ -27,7 +29,8 @@ export default {
     FirstHero,
     HowItWorks,
     AboutUs,
-    Depositions
+    Depositions,
+    Contact
   },
   data () {
     return {

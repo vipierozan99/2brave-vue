@@ -1,5 +1,5 @@
 <template>
-    <div id="AboutUs" style="background-color:black;padding-top:30px;">
+    <div id="AboutUs" :style="{'background-image': 'url(' +images.background+ ')', 'background-color':'black'}">
         <v-layout row wrap style="margin: 0 10px 30px 10px;align-items:flex-start;align-content:flex-start;">
             <v-flex sm6 >
                 <div class="title font-weight-light" style="text-align:center;padding:30px 0 90px 0;color:silver">
@@ -40,7 +40,7 @@
                 </div>
             </v-flex>
             <v-flex sm6 >
-                <v-img contain style="marign:auto; background:rgba(0,0,0,0)" :src="images.postIt"  width="auto" height="380px"/>
+                <v-img @click="redirect('https://2brave.org')" contain style="marign:auto; background:rgba(0,0,0,0)" :src="images.postIt"  width="auto" height="380px"/>
                 <div class="title font-weight-light" style="text-align:center;padding:30px 0 30px 0;color:silver">
                     <h2 class="display-2" style="color:white">COMO AJUDAMOS?</h2>
                     <br>
@@ -71,7 +71,13 @@ export default {
         return{
             images:{
                 postIt: require("@/assets/img/6.png"),
+                background: require("@/assets/img/3.png")
             }
+        }
+    },
+    methods:{
+        redirect(url){
+            window.location.href = url;
         }
     }
 
