@@ -4,7 +4,8 @@
       <MainNav></MainNav>
       <FirstHero/>
       <HowItWorks/>
-      
+      <AboutUs/>
+      <Depositions/>
    
   </v-app>
 </template>
@@ -14,13 +15,19 @@ import HelloWorld from './components/HelloWorld'
 import MainNav from "@/components/MainNav"
 import FirstHero from "@/components/FirstHero"
 import HowItWorks from "@/components/HowItWorks"
+import AboutUs from "@/components/AboutUs"
+import Depositions from "@/components/Depositions"
+
+
 
 export default {
   name: 'App',
   components: {
     MainNav,
     FirstHero,
-    HowItWorks
+    HowItWorks,
+    AboutUs,
+    Depositions
   },
   data () {
     return {
@@ -29,3 +36,10 @@ export default {
   }
 }
 </script>
+
+<style>
+.app{
+  font: Hero
+}
+  
+</style>

@@ -1,30 +1,33 @@
 <template>
-    <div id="first-hero" style="background-color:black;padding-top:30px">
-        
-            <v-layout row wrap >
-                <v-flex sm7>
-                    <v-layout style="width:80%;margin:auto;">
-                        <v-flex sm4>
-                            <v-img style="marign:auto" :src="images.logo"  width="100%" height="100%"/>
-                        </v-flex>
-                        <v-flex sm8>
-                            <h1 class="display-4" style="margin:auto">2BRAVE</h1>
-                        </v-flex>
-                    </v-layout>
-                    <div style="width:80%;margin:auto">
-                        A informação é o primeiro passo para
-                        tomar uma decisão. Somos uma
-                        plataforma humanizada que te ajuda a
-                        encontrar informação jurídica com uma
-                        mulher advogada de forma 100% anônima.
-                    </div>
-                </v-flex>
-                <v-flex sm5>
-                    <v-img style="margin:auto" width="70%" height="70%" :src="images.woman"/>
-                </v-flex>
-            </v-layout>
-        
-             
+    <div id="first-hero" style="background-color:black;padding-top:30px;max-height:600px">
+        <v-layout row wrap style="height:100%">
+            <v-flex sm7 style="height:100%">
+                <v-layout style="height: 40%;max-width:600px;margin:auto;">
+                    <v-flex sm5>
+                        <v-img contain style="marign:auto; background:rgba(0,0,0,0)" :src="images.logo"  width="auto" height="90%"/>
+                    </v-flex>
+                    <v-flex sm7 style="padding-top: 10%">
+                        <h1 class="display-4" style="margin:auto; text-align:center;"><u >2</u> <u class="font-weight-thin">BRAVE</u> </h1>
+                        <div class="body-1" style="margin:auto; text-align:center; color:gray">
+                            CONSULTA JURÍDICA DE MULHERES POR MULHERES
+                        </div>
+                    </v-flex>
+                </v-layout>
+                <div class="hidden-sm-and-up" style="height:50px"></div>
+                <div class="headline" style="max-width:600px;margin:auto;color:silver;padding:0 0 20px 2.5%">
+                    A informação é o primeiro passo para
+                    tomar uma decisão. Somos uma
+                    plataforma humanizada que te ajuda a
+                    encontrar informação jurídica com uma
+                    mulher advogada de forma 100% anônima.
+                    <br class="hidden-sm-and-down">
+                    <v-btn small>Saiba Mais</v-btn>
+                </div>
+            </v-flex>
+            <v-flex sm5 style="height:100%">
+                <v-img contain style="margin:auto" width="auto" height="100%" :src="images.woman"/>
+            </v-flex>
+        </v-layout>
     </div>
     
 </template>
