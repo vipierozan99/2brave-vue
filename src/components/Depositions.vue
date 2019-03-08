@@ -1,5 +1,6 @@
 <template>
   <div id="Depositions" style="padding-top:30px;">
+    <h1 class="display-3" style="text-align:center">DEPOIMENTOS</h1>
     <carousel-3d>
       <slide v-for="(quote, index) in quotes" :index="index" :key="index">
           <div style="height:10px"></div>

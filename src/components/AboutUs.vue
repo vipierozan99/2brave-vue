@@ -1,5 +1,5 @@
 <template>
-    <div id="AboutUs" :style="{'background-image': 'url(' +images.background+ ')', 'background-color':'black'}">
+    <div id="AboutUs" :style="{'background-image': 'url(' +images.background+ ')'}">
         <v-layout row wrap style="margin: 0 10px 30px 10px;align-items:flex-start;align-content:flex-start;">
             <v-flex sm6 >
                 <div class="title font-weight-light" style="text-align:center;padding:30px 0 90px 0;color:silver">
@@ -87,7 +87,8 @@ export default {
 
 <style>
 #AboutUs{
-    color:white
+    color:white;
+    background-color:black
 }
 
 </style>

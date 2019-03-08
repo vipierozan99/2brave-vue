@@ -1,8 +1,8 @@
 <template>
     <div id="HowItWorks" style="padding-top:30px;">
         <h1 class="display-3" style="text-align:center">FUNCIONA ASSIM</h1>
-        <v-layout row wrap style="width:60%; margin:auto;align-content: flex-start">
-            <v-flex sm4 style=" height:450px; padding-top:30px">
+        <v-layout row wrap style="width:70%; margin:auto;align-content: flex-start; padding-bottom:20px">
+            <v-flex sm4 style=" height:500px; padding-top:30px">
                 <v-img contain style="marign:auto; background:rgba(0,0,0,0)" :src="images.logo"  width="auto" height="40%"/>
                 <div style="margin:auto;padding:50px;text-align:center;">
                     <h3>ME AJUDE</h3>
@@ -15,7 +15,7 @@
                     plataforma.
                 </div>
             </v-flex>
-            <v-flex sm4 style=" height:450px; padding-top:30px">
+            <v-flex sm4 style=" height:500px; padding-top:30px">
                 <v-img contain style="marign:auto; background:rgba(0,0,0,0)" :src="images.logo"  width="auto" height="40%"/>
                 <div style="margin:auto;padding:50px;text-align:center">
                     <h3>ESTOU AQUI</h3>
@@ -27,7 +27,7 @@
                     forma anônima.
                 </div>
             </v-flex>
-            <v-flex sm4 style=" height:450px; padding-top:30px">
+            <v-flex sm4 style=" height:500px; padding-top:30px">
                 <v-img contain style="marign:auto; background:rgba(0,0,0,0)" :src="images.logo"  width="auto" height="40%"/>
                 <div style="margin:auto;padding:50px;text-align:center">
                     <h3>CONSULTA</h3>

@@ -7,7 +7,8 @@
       <AboutUs/>
       <Depositions/>
       <Contact/>
-   
+      <MainFooter/>
+
   </v-app>
 </template>
 
@@ -19,6 +20,7 @@ import HowItWorks from "@/components/HowItWorks"
 import AboutUs from "@/components/AboutUs"
 import Depositions from "@/components/Depositions"
 import Contact from "@/components/Contact"
+import MainFooter from "@/components/MainFooter"
 
 
 
@@ -30,7 +32,8 @@ export default {
     HowItWorks,
     AboutUs,
     Depositions,
-    Contact
+    Contact,
+    MainFooter
   },
   data () {
     return {
